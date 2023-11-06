@@ -1,0 +1,26 @@
+:root {
+    --background-color: #f4f4f4;
+    --heading-color: #333333;
+    --list-color: #555555;
+    --task-container-color: #ffffff;
+  }
+  
+  body {
+    background-color: var(--background-color);
+  }
+  
+  h1 {
+    color: var(--heading-color);
+  }
+  
+  ul {
+    color: var(--list-color);
+  }
+  
+  .taskContainer {
+    background-color: var(--task-container-color);
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+  }
